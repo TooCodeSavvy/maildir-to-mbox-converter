@@ -1,6 +1,10 @@
 # Maildir to Mbox Converter
 
-A Python script for converting emails from Maildir format to Mbox format. This is useful for creating backups or migrating emails to another email client.
+A Python script for converting emails from Maildir format to Mbox format. This is useful for creating backups or migrating emails to another email client. 
+
+## Context
+
+This script can be particularly helpful for transferring email files from DirectAdmin (located at `imap/domain.nl/info/Maildir`) to another hosting service that only accepts importing emails in MIME or Mbox format. The resulting `output.mbox` file can then be imported into the Roundcube webmail interface.
 
 ## Requirements
 
@@ -43,4 +47,5 @@ It will also create a directory named `output.mbox.sbd`, containing subdirectori
 
 - `md2mb.py`: The Python script for the conversion.
 - `README.md`: This documentation.
-- `LICENSE`: This project is licensed under the MIT License - see the LICENSE file for details.
+- `LICENSE`: This project is licensed under the MIT License
+
