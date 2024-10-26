@@ -21,12 +21,21 @@ This script can be particularly helpful for transferring email files from Direct
     ```bash
     chmod +x md2mb.py
 
+## Steps to Convert Maildir to Mbox
+
+1. **Go to DirectAdmin** and navigate to the folder, e.g., `imap/domain.nl/info/Maildir`.
+2. **Compress the Maildir** folder into a `.zip` file and download it to your local machine.
+3. **Extract the downloaded `.zip` file** to access the Maildir folder.
+4. Run the following command to convert the Maildir to Mbox:
+   ```bash
+   python3 md2mb.py Maildir output.mbox
+
+
 ## Usage
 - **Converting Emails**
-Run the script using the following syntax:
+Run the script using the following command:
     ```bash 
-    python3 md2mb.py [path_to_maildir] [output_mbox_file]
-    Example: python3 md2mb.py Maildir output.mbox 
+    python3 md2mb.py Maildir output.mbox 
 
 ## Explanation of Parameters
 
