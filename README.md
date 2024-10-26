@@ -22,10 +22,7 @@ A Python script for converting emails from Maildir format to Mbox format. This i
 Run the script using the following syntax:
     ```bash 
     python3 md2mb.py [path_to_maildir] [output_mbox_file]
-
-Example:
-    ```bash 
-    python3 md2mb.py Maildir output.mbox
+    Example: python3 md2mb.py Maildir output.mbox 
 
 ## Explanation of Parameters
 
